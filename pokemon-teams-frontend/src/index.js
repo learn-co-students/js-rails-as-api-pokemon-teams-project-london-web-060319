@@ -84,11 +84,6 @@ function addPokemonHandler(addBtn) {
       .then(data => showPokemonToDom(data));
   });
 }
-
-//   fetch("http://localhost:3000/toys", configObj)
-//   .then(response => response.json())
-//   .then(toy => addToyToDom(toy))
-
 // #=> Example Response
 // {
 //   "id":147,
